@@ -98,14 +98,6 @@ The layout is fully responsive via Bootstrap's grid system plus custom breakpoin
 - `≤ 767px` — phones: smaller headings, stacked newsletter form, adjusted section padding
 - `≤ 330px` — very small phones: extra padding on the testimonial carousel
 
-## 🧩 Known Issues / Possible Improvements
-
-- `.top-baner` in `media.css` is a typo and should be `.top-banner` to actually apply to the hero section.
-- `.testimonial-section` is declared twice in `style.css` with overlapping rules — could be merged into one block.
-- `--black-color` is referenced in the newsletter input styling but is never defined in `:root`.
-- The newsletter form has no `action`/JS handler yet, so submissions currently don't go anywhere — hook it up to a backend or a service like Mailchimp/Formspree.
-- Counter values are hardcoded in `main.js`; consider pulling them from data attributes in the HTML for easier editing.
-
 ## 📄 License
 
 This project is free to use for personal or educational purposes. Add a license of your choice (e.g. MIT) if you plan to publish or share it publicly.
